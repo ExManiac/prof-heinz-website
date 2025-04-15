@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prof. Dr. Wolfgang S. Heinz</title>
+    <style>
+        body { font-family: "Times New Roman", serif; margin: 20px; }
+        h1 { text-align: center; }
+        nav { text-align: center; margin-bottom: 30px; }
+        table { width: 100%; border-collapse: collapse; margin: 20px 0; }
+        th, td { border: 1px solid #000; padding: 8px; text-align: left; }
+        footer { text-align: center; margin-top: 30px; }
+    </style>
+</head>
+<body>
+
+<header>
+    <nav>
+        <a href="#home">Home</a> |
+        <a href="#lebenslauf">Lebenslauf</a> |
+        <a href="#publikationen">Publikationen</a> |
+        <a href="#kontakt">Kontakt</a>
+    </nav>
+</header>
+
+<main id="home">
+    <h1>Prof. Dr. Wolfgang S. Heinz</h1>
+    <p>Emeritierter Professor für [Fachgebiet einfügen, falls ersichtlich]. Ehemals tätig an der [Universität einfügen].</p>
+    <p>Forschungsschwerpunkte: [Themenliste, z. B. Analysis, Dynamische Systeme].</p>
+    <img src="professor_heinz.jpg" alt="Porträt Prof. Heinz">
+</main>
+
+<section id="lebenslauf">
+    <h2>Lebenslauf</h2>
+    <table>
+        <tr>
+            <th>Jahr</th>
+            <th>Position</th>
+            <th>Institution</th>
+        </tr>
+        <tr>
+            <td>[Jahr]</td>
+            <td>[Position]</td>
+            <td>[Institution]</td>
+        </tr>
+        <!-- Weitere Zeilen hier hinzufügen -->
+    </table>
+</section>
+
+<section id="publikationen">
+    <h2>Publikationen</h2>
+    <ul>
+        <li>[Publikation 1]</li>
+        <li>[Publikation 2]</li>
+        <!-- Weitere Publikationen hier hinzufügen -->
+    </ul>
+</section>
+
+<section id="kontakt">
+    <h2>Kontakt</h2>
+    <p>E-Mail: <a href="mailto:heinz@wshainz.de">heinz@wshainz.de</a></p>
+    <p>Adresse: [Universitätsanschrift, falls angegeben]</p>
+    <p>Bitte kontaktieren Sie mich per E-Mail für Anfragen.</p>
+</section>
+
+<footer>
+    <a href="impressum.html">Impressum</a> <br>
+    <p>© 2023 Prof. Dr. Wolfgang S. Heinz</p>
+</footer>
+
+</body>
+</html>
