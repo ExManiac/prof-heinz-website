@@ -170,7 +170,30 @@
         <p>Tel.: +49 171 467 05 62</p>
         <p>E-mail: <a href="mailto:wheinz@compuserve.com">wheinz@compuserve.com</a></p>
     </div>
-
+:root {
+  --bg: #121212;
+  --text: #e0e0e0;
+  --accent: #bb86fc;
+}
+body {
+  background-color: var(--bg);
+  color: var(--text);
+  font-family: 'Inter', sans-serif;
+}
+header {
+  border-bottom: 1px solid #333;
+}
+h1, h2 {
+  color: var(--accent);
+  font-weight: 500;
+}
+a {
+  color: var(--accent);
+}
+.pub-item:before {
+  color: var(--accent);
+}
+    
     <div id="home" class="section">
         <h2>Mainpage</h2>
         
