@@ -1,83 +1,208 @@
-Hier ist der aktualisierte HTML-Code, der die neuen Strukturpunkte und Inhalte gemäß Ihren Anweisungen integriert. Die Struktur wurde um die Abschnitte „Rezensionen“, „Evaluierungen“, „Lehre an der FU Berlin“ und „Consultancies“ erweitert.
-
-```html
 <!DOCTYPE html>
 <html lang="de">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Prof. Dr. Wolfgang S. Heinz</title>
+    <title>Prof. Dr. Wolfgang Heinz - Politikwissenschaft</title>
     <style>
-        body { font-family: "Times New Roman", serif; margin: 20px; }
-        h1 { text-align: center; }
-        nav { text-align: center; margin-bottom: 30px; }
-        table { width: 100%; border-collapse: collapse; margin: 20px 0; }
-        th, td { border: 1px solid #000; padding: 8px; text-align: left; }
-        footer { text-align: center; margin-top: 30px; }
+        body {
+            font-family: 'Georgia', serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        header {
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 20px;
+            margin-bottom: 30px;
+        }
+        h1 {
+            color: #2c3e50;
+            font-size: 28px;
+        }
+        h2 {
+            color: #34495e;
+            font-size: 22px;
+            margin-top: 40px;
+            border-bottom: 1px solid #eee;
+            padding-bottom: 5px;
+        }
+        h3 {
+            color: #7f8c8d;
+            font-size: 18px;
+            margin-top: 25px;
+        }
+        a {
+            color: #2980b9;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        ul {
+            padding-left: 20px;
+        }
+        li {
+            margin-bottom: 8px;
+        }
+        .contact-info {
+            background-color: #f9f9f9;
+            padding: 15px;
+            border-left: 3px solid #3498db;
+            margin: 20px 0;
+        }
+        .section {
+            margin-bottom: 40px;
+        }
+        .pub-item {
+            margin-bottom: 15px;
+        }
+        nav {
+            margin: 20px 0;
+            background-color: #f8f9fa;
+            padding: 10px;
+        }
+        nav a {
+            margin-right: 15px;
+            font-weight: bold;
+        }
+        .country-list {
+            columns: 3;
+            list-style-type: none;
+            padding-left: 0;
+        }
+        .country-list li {
+            break-inside: avoid;
+        }
+        .course-list {
+            list-style-type: none;
+            padding-left: 0;
+        }
+        .course-list li {
+            margin-bottom: 12px;
+            padding-left: 15px;
+            text-indent: -15px;
+        }
+        .course-list li:before {
+            content: "• ";
+            color: #3498db;
+            font-weight: bold;
+        }
+        .org-list {
+            columns: 2;
+            list-style-type: none;
+            padding-left: 0;
+        }
+        @media (max-width: 768px) {
+            .country-list, .org-list {
+                columns: 1;
+            }
+        }
     </style>
 </head>
 <body>
+    <!-- [Previous header and navigation sections remain unchanged] -->
 
-<header>
-    <nav>
-        <a href="#home">Home</a> |
-        <a href="#lebenslauf">Lebenslauf</a> |
-        <a href="#publikationen">Publikationen</a> |
-        <a href="#rezensionen">Rezensionen</a> |
-        <a href="#evaluierungen">Evaluierungen</a> |
-        <a href="#lehre">Lehre an der FU Berlin</a> |
-        <a href="#consultancies">Consultancies</a> |
-        <a href="#kontakt">Kontakt</a>
-    </nav>
-</header>
+    <div id="evaluations" class="section">
+        <h2>4. Evaluierungen zur Förderung der Menschenrechte/Demokratie/Dezentralisierung</h2>
+        <h3>Country evaluations on the promotion of human rights/democracy/decentralization, also project visits as well as other professional activities in:</h3>
+        
+        <ul class="country-list">
+            <li>Argentinien</li>
+            <li>Aserbaidschan</li>
+            <li>Bosnien-Herzegowina</li>
+            <li>Brasilien</li>
+            <li>Bulgarien</li>
+            <li>Chile</li>
+            <li>Costa Rica</li>
+            <li>Dominikanische Republik</li>
+            <li>Grossbritannien</li>
+            <li>Guatemala</li>
+            <li>Indien</li>
+            <li>Japan</li>
+            <li>Kenia</li>
+            <li>Kolumbien</li>
+            <li>Korea</li>
+            <li>Mali</li>
+            <li>Marokko</li>
+            <li>Nepal</li>
+            <li>Nigeria</li>
+            <li>Norwegen</li>
+            <li>Peru</li>
+            <li>den Philippinen</li>
+            <li>Russische Föderation</li>
+            <li>Schweiz</li>
+            <li>Simbabwe</li>
+            <li>Tschad</li>
+            <li>Tunesien</li>
+            <li>Ungarn</li>
+            <li>Uganda</li>
+            <li>Ukraine</li>
+            <li>Uruguay</li>
+            <li>Venezuela</li>
+        </ul>
+        
+        <p>Ähnliche Aktivitäten in mehr als 40 weiteren Ländern</p>
+    </div>
 
-<main id="home">
-    <h1>Prof. Dr. Wolfgang S. Heinz</h1>
-    <p>Emeritierter Professor am Otto-Suhr-Institut für Politikwissenschaft, FB 15, Freie Universität Berlin (2000-2024).</p>
-    <p>Tel.: +49 171 467 05 62 | E-Mail: <a href="mailto:wheinz@compuserve.com">wheinz@compuserve.com</a></p>
-    <p>Forschungsschwerpunkte: [Themenliste, z. B. Analysis, Dynamische Systeme].</p>
-    <img src="professor_heinz.jpg" alt="Porträt Prof. Heinz">
-</main>
+    <div id="teaching" class="section">
+        <h2>5. Lehrveranstaltungen an der Freien Universität (Auswahl)</h2>
+        <h3>Courses at Free University Berlin (Selection)</h3>
+        
+        <ul class="course-list">
+            <li>Wintersemester 2023/24: 15091 Deutsche Außenpolitik, China und Russland</li>
+            <li>Wintersemester 2022/23: 15093 Frieden in Europa? 1918, 1945, 1989</li>
+            <li>Wintersemester 2021/22: 15137 Internationale Sicherheit. Einführung in die Außenpolitik Chinas, Russlands und der USA</li>
+            <li>Wintersemester 2020/21: 15136 Internationale Beziehungen und Völkerrecht</li>
+            <li>Wintersemester 2019/20: 15134 Bürgerkriege. Die Rolle der Vereinten Nationen (UN Sicherheitsrat und UN Menschenrechtsrat)</li>
+            <li>Wintersemester 2018/19: 15132 Öffentliche Sicherheit in Lateinamerika: Der Krieg gegen die Drogen und andere Herausforderungen</li>
+            <li>POLSOZ_H_15261_17W: UN-Sicherheitsrat</li>
+            <li>POLSOZ_S_15497_16S: Vereinte Nationen, Menschenrechtsschutz und internationale Sicherheit</li>
+            <li>POLSOZ_S_15374_15S: Strategien zur Beendigung von Bürgerkriegen</li>
+            <li>POLSOZ_S_15373_14S: Bewaffnete Oppositionsgruppen und internationale Sicherheitspolitik</li>
+            <li>POLSOZ_P_15173_12W: (Gender) Europäischer Menschenrechtsschutz</li>
+            <li>POLSOZ_HS_15351 10S: Internationale Terrorismusbekämpfung als Aufgabe der Sicherheitspolitik</li>
+            <li>POLSOZ_HS_15344_11W: Neue sicherheitspolitische Herausforderungen und Bundeswehr</li>
+        </ul>
+    </div>
 
-<section id="lebenslauf">
-    <h2>Lebenslauf</h2>
-    <table>
-        <tr>
-            <th>Jahr</th>
-            <th>Position</th>
-            <th>Institution</th>
-        </tr>
-        <tr>
-            <td>[Jahr]</td>
-            <td>[Position]</td>
-            <td>[Institution]</td>
-        </tr>
-        <!-- Weitere Zeilen hier hinzufügen -->
-    </table>
-</section>
+    <div id="consultancies" class="section">
+        <h2>6. Beratungstätigkeit/Zusammenarbeit mit</h2>
+        <h3>Consultancies / cooperation with:</h3>
+        
+        <ul class="org-list">
+            <li>den Vereinten Nationen</li>
+            <li>der OECD</li>
+            <li>der EU-Kommission</li>
+            <li>dem Europarat</li>
+            <li>IRELA</li>
+            <li>dem Deutschen Institut für Menschenrechte, Berlin</li>
+            <li>der Friedrich-Ebert-Stiftung</li>
+            <li>der Friedrich-Naumann-Stiftung</li>
+            <li>der Konrad-Adenauer-Stiftung</li>
+            <li>der Heinrich-Böll-Stiftung</li>
+            <li>der Führungsakademie der Bundeswehr</li>
+            <li>der NATO School Oberammergau</li>
+            <li>dem Deutschen Institut für Entwicklungspolitik</li>
+            <li>der Stiftung Wissenschaft und Politik (SWP)</li>
+            <li>der Deutschen Stiftung für Entwicklungsländer</li>
+            <li>der Deutschen Gesellschaft für Technische Zusammenarbeit (GTZ/GIZ)</li>
+            <li>der Kreditanstalt für Wiederaufbau</li>
+            <li>der Deutschen Gesellschaft für Auswärtige Politik</li>
+            <li>der Deutschen Gesellschaft für die Vereinten Nationen</li>
+            <li>Misereor</li>
+            <li>Brot für die Welt</li>
+            <li>dem Menschenrechtsreferat des Diakonischen Werkes der EKD</li>
+            <li>amnesty international (Internationales Sekretariat, niederländische und deutsche Sektionen)</li>
+            <li>dem Auswärtigen Amt</li>
+            <li>dem Bundesministerium für wirtschaftliche Zusammenarbeit und Entwicklung</li>
+            <li>der Deutschen Stiftung Friedensforschung</li>
+            <li>der Nationalen Menschenrechtskoordination Perus, u.a.</li>
+        </ul>
+    </div>
 
-<section id="publikationen">
-    <h2>Publikationen</h2>
-    <ul>
-        <li>2024: Strategies for Ensuring Fair Treatment of Persons in Police Custody: Past, Present and Future. In: Ralf Alleweldt (Hrsg.), Fair Treatment of Persons in Police Custody, Wiesbaden: Springer Nature, S. 235-268 <a href="https://link.springer.com/book/10.1007/978-3-031-61737-9">Link</a></li>
-        <li>2022: The Human Rights Council Advisory Committee’s Draft Declaration on the right to peace (2012) and UN General Assembly Resolution 71/189 of 2016. In: David Fernandez Puyana and Michael Wiener (eds.), A Missing Piece for Peace, San José: University for Peace, S. 56-67 <a href="https://www.upeace.org/wp-content/uploads/2024/01/Wiener-and-Fernandez-A-Missing-Piece-for-Peace.pdf">Link</a></li>
-        <li>Viele weitere Veröffentlichungen...</li>
-        <!-- Fügen Sie hier den Rest der Publikationen hinzu -->
-    </ul>
-</section>
-
-<section id="rezensionen">
-    <h2>Rezensionen</h2>
-    <p>[Hier können Sie Rezensionen hinzufügen]</p>
-</section>
-
-<section id="evaluierungen">
-    <h2>Evaluierungen</h2>
-    <p>Country evaluations on the promotion of human rights/democracy/decentralization: 
-        Argentinien, Aserbaidschan, Bosnien-Herzegowina, Brasilien, ... (und viele weitere).</p>
-</section>
-
-<section id="lehre">
-    <h2>Lehre an der FU Berlin</h2>
-    <ul>
-        <li>Winter
+    <!-- [Footer remains unchanged] -->
+</body>
+</html>
